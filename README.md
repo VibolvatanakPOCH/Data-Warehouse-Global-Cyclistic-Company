@@ -80,7 +80,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 - **Transform**: Clean data, ensuring consistency and correct format, especially for keys.
 - **Load**: Populate the Global Cycling Company Data Warehouse (DW), focusing on incremental data loading and critical transformations.
 
-### Dimension Tables
+## Dimension Tables
 <img width="914" alt="Dimension + slowly changing dimensions" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/1cb6ac61-0c00-4910-be9b-c5342baf7111">
 
 > Incremental Load and Full Load.
@@ -96,7 +96,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 > Look up to DWH to avoid data duplication.
 
-### Slowly Changing Dimension (SCD)
+## Slowly Changing Dimension (SCD)
 
 <img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
 
@@ -112,7 +112,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 > If the criteria meet SCD 2, it will insert new data and keep history.
 
-### Fact Tables
+## Fact Tables
 <img width="919" alt="Fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/bcd2ef29-1189-4359-b664-e44b1978d408">
  
 > Full load and Truncate each time. 
