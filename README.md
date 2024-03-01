@@ -1,7 +1,7 @@
 # Global Cycling Company Data Warehouse 🚴‍♂️🏭
 
 Welcome to the Global Cycling Company Data Warehouse by AdventureWorks 2016!
-From data collection to insightful reporting, our process involves gathering data from various sources, integrating it into a centralized platform, transforming it for analysis, storing it efficiently, applying advanced analytics techniques, generating insightful reports and visualizations, and continuously improving the warehouse to meet evolving business needs and technological advancements.
+From data collection to insightful reporting, our process involves gathering data from various sources, integrating it into a centralized platform, transforming it for analysis, storing it efficiently, applying advanced analytics techniques like Slowly Changing Dimension (SCD), generating insightful reports and visualizations, and continuously improving the warehouse to meet evolving business needs and technological advancements.
 
 # Overview 🌟
 
@@ -75,6 +75,46 @@ While implementing the data warehouse, we may encounter challenges such as:
 - **Extract**: Identify and prepare data from MySQL and SQL Server 2019.
 - **Transform**: Clean data, ensuring consistency and correct format, especially for keys.
 - **Load**: Populate the Global Cycling Company Data Warehouse (DW), focusing on incremental data loading and critical transformations.
+
+### Dimension Tables
+<img width="914" alt="Dimension + slowly changing dimensions" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/1cb6ac61-0c00-4910-be9b-c5342baf7111">
+ > explain
+
+#### Currency
+<img width="917" alt="dimcurrency" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3618d869-ed54-4810-9973-c1b19c2c1650">
+ > explain
+ 
+#### Date 
+<img width="914" alt="dimdate" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/7b53d64b-9486-4209-a31e-745517e8ea2b">
+
+ > explain
+>
+### Slowly Changing Dimension (SCD)
+
+<img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
+
+ > explain
+
+<img width="899" alt="updates sdc1" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3c2858a0-0888-4d64-b55e-c87cdb1f32f6">
+
+<img width="918" alt="update scd 1 - sql query" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/a3575d33-1c1c-45d3-817e-c2ff72d99c27">
+ > explain
+
+
+
+
+### Fact Tables
+<img width="919" alt="Fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/bcd2ef29-1189-4359-b664-e44b1978d408">
+ > explain
+
+#### Online Sale
+<img width="909" alt="factonlinesales" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/f69e6159-f0d5-4980-90cb-a64e70c5982b">
+ > explain
+
+#### Store Sale
+<img width="905" alt="factstoresale" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/2c5106e9-3eb7-4866-b7b8-0e28c79e16c3">
+ > explain
+
 
 ## 4. Testing and Deployment 🛠️
 
