@@ -94,7 +94,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 <img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
 
-> Split into three conditions: SCD 0, SCD 1, and SCD 2 based on the incoming data criteria. 
+> Split into three conditions: SCD 0, SCD 1, and SCD 2 based on the incoming data criteria of Dim.Product.
 
 <img width="899" alt="updates sdc1" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3c2858a0-0888-4d64-b55e-c87cdb1f32f6">
 
@@ -102,11 +102,14 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 > If the criteria meet SCD 1, it will update the existing data.
 
+![image_2024-03-01_21-06-30](https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/374493a0-d59b-40a0-9939-ff7fa68d12c2)
+
+> If the criteria meet SCD 2, it will insert new data and keep history.
 
 ### Fact Tables
 <img width="919" alt="Fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/bcd2ef29-1189-4359-b664-e44b1978d408">
  
-> explain
+> Full load and Truncate each time. 
 
 #### Online Sale
 <img width="909" alt="factonlinesales" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/f69e6159-f0d5-4980-90cb-a64e70c5982b">
