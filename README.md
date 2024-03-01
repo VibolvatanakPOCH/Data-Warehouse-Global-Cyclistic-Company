@@ -1,6 +1,6 @@
 # Global Cycling Company Data Warehouse 🚴‍♂️🏭
 
-Welcome to the Global Cycling Company Data Warehouse by AdventureWorks data source! Our data warehouse is designed to centralize and consolidate data from various sources within our organization, enabling advanced analytics and insightful reporting.
+Welcome to the Global Cycling Company Data Warehouse by AdventureWorks 2016 data source! This data warehouse is designed to centralize and consolidate data from various sources within our organization, enabling advanced analytics and insightful reporting.
 
 # Overview 🌟
 
