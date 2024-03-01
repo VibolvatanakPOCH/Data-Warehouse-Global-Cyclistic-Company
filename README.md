@@ -96,12 +96,13 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 <img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
 
- > explain
+> explain
 
 <img width="899" alt="updates sdc1" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3c2858a0-0888-4d64-b55e-c87cdb1f32f6">
 
 <img width="918" alt="update scd 1 - sql query" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/a3575d33-1c1c-45d3-817e-c2ff72d99c27">
- > explain
+
+> explain
 
 
 
