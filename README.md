@@ -179,6 +179,6 @@ With the data warehouse in place, we can expect to:
 
 For further inquiries or to discuss potential collaborations, please connect with us:
 
-**Vatanak**  : [LinkedIn](https://www.linkedin.com/in/vibolvatanak-poch-507007157/)
-**Brathna**  : [LinkedIn](https://www.linkedin.com/in/sombrathna-sout/)
-**Vira**     : [LinkedIn](https://www.linkedin.com/in/rithyvira/)
+- **Vatanak**  : [LinkedIn](https://www.linkedin.com/in/vibolvatanak-poch-507007157/)
+- **Brathna**  : [LinkedIn](https://www.linkedin.com/in/sombrathna-sout/)
+- **Vira**     : [LinkedIn](https://www.linkedin.com/in/rithyvira/)
