@@ -1,3 +1,5 @@
+![Architechture](https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/125289ad-9aa6-4795-b852-5d1c9a02f7cd)
+
 # Global Cycling Company Data Warehouse 🚴‍♂️
 
 Welcome to the Global Cycling Company Data Warehouse by AdventureWorks 2016!
@@ -26,7 +28,8 @@ The Global Cycling Company Data Warehouse project involves the following key com
 
 It utilizes a star schema design with a central fact table surrounded by dimension tables optimized for query performance and simplicity.
 
-[pic]
+[ffd]
+
 
 # Tools and Technologies 🛠️
 
