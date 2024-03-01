@@ -91,8 +91,8 @@ While implementing the data warehouse, we may encounter challenges such as:
 > Look up to DWH to avoid data duplication.
 
 
-#### Data
-
+#### Date
+<img width="914" alt="dimdate" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/8243a74a-8c42-4336-bd1c-d72195a19b7b">
 
 > Look up to DWH to avoid data duplication.
 
