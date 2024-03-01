@@ -113,14 +113,13 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 #### Online Sale
 <img width="909" alt="factonlinesales" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/f69e6159-f0d5-4980-90cb-a64e70c5982b">
- 
-> explain
+
+> Look up for SK key matched with all other SK keys of dim.Table.
 
 #### Store Sale
 <img width="905" alt="factstoresale" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/2c5106e9-3eb7-4866-b7b8-0e28c79e16c3">
- 
-> explain
 
+> Look up for SK key matched with all other SK keys of dim.Table.
 
 ## 4. Testing and Deployment 🛠️
 
@@ -128,35 +127,37 @@ While implementing the data warehouse, we may encounter challenges such as:
 - **Integration Testing**: Validate the entire data pipeline for correctness and logic.
 - **Deployment**: Deploy the data warehouse in a production environment, monitoring performance and functionality.
 
-#### ELT deployment
+#### ETL deployment
 <img width="966" alt="deployment" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/35d5e7b4-863f-4068-ae4d-459962bd0f78">
 
-> explain
+> Deploy packages to SQL server (DWH).
 
 #### Execute Task Dimension
 <img width="1093" alt="deploy-execute dimension " src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/1a4a00c8-9615-4c57-b518-594fa82fd2a4">
 
-> explain
+> Testing deployment of Dimension tables in SQL server (DWH).
 
 
 #### Execute Task Fact
 <img width="1083" alt="deploy-execute fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/91a37e6b-b1f2-42af-a589-3f781965dc50">
 
+> Testing deployment of Fact tables in SQL server (DWH).
+
 ### Job Schedule 
 #### Create Task for Dimension Table
 <img width="1044" alt="deploy-task dimention" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/52eda3d9-8215-45fc-b9c8-1f2a8969026c">
 
-> explain
+> Create a step task to load all Dimension tables data.
 
 #### Create Task for Fact Table
 <img width="1045" alt="deploy-task fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/f2dd71ec-275b-4a2e-8f95-2b18bea8eb4a">
 
-> explain 
+> Create a step task to load all Fact tables data.
 
-#### Job schedule
+#### Job Schedule
 <img width="621" alt="job-schedule" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/25e8fc58-c03d-4598-9253-83ad3e9c23d4">
 
-> explain
+> Create a schedule to execute all two steps to load all data from Dimension and Fact tables based on your preferred time schedule.
 
 # Future Productions 🔍🌟
 
