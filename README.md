@@ -87,6 +87,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 #### Currency
 <img width="917" alt="dimcurrency" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3618d869-ed54-4810-9973-c1b19c2c1650">
+
 > explain
  
 #### Date 
