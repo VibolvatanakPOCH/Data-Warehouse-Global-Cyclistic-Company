@@ -1,4 +1,4 @@
-# Global Cycling Company Data Warehouse 🚴‍♂️🏭
+# Global Cycling Company Data Warehouse 🚴‍♂️
 
 Welcome to the Global Cycling Company Data Warehouse by AdventureWorks 2016!
 From data collection to insightful reporting, our process involves gathering data from various sources, integrating it into a centralized platform, transforming it for analysis, storing it efficiently, applying advanced analytics techniques like Slowly Changing Dimension (SCD), generating insightful reports and visualizations, and continuously improving the warehouse to meet evolving business needs and technological advancements.
@@ -28,13 +28,13 @@ It utilizes a star schema design with a central fact table surrounded by dimensi
 
 [pic]
 
-# Tools and Technologies 🛠️💻
+# Tools and Technologies 🛠️
 
 - **SQL Server Management Studio 2019 and MySQL (SSMS)**: For deployment and scheduling.
 - **ODBC and OLEDB Drivers**: For database connections.
 - **Visual Studio 2019 (ETL)**: To automate the extraction, transformation, and loading processes.
   
-# Purpose and Impact 💼📈
+# Purpose and Impact 📈
 
 The purpose of our data warehouse is to:
 - Gain deeper insights into sales trends and customer behavior 
@@ -58,7 +58,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 - Integration of data from diverse sources may pose compatibility challenges 
 
 
-# Buidling Phases 📅
+# Buidling Phases 
 
 ## 1. Define Requirements 📝
 
