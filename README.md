@@ -90,6 +90,11 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 > Look up to DWH to avoid data duplication.
 
+#### Data
+
+
+> Look up to DWH to avoid data duplication.
+
 ### Slowly Changing Dimension (SCD)
 
 <img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
