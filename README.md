@@ -83,29 +83,24 @@ While implementing the data warehouse, we may encounter challenges such as:
 ### Dimension Tables
 <img width="914" alt="Dimension + slowly changing dimensions" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/1cb6ac61-0c00-4910-be9b-c5342baf7111">
 
-> explain
+> Incremental Load and Full Load.
 
 #### Currency
 <img width="917" alt="dimcurrency" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3618d869-ed54-4810-9973-c1b19c2c1650">
 
-> explain
- 
-#### Date 
-<img width="914" alt="dimdate" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/7b53d64b-9486-4209-a31e-745517e8ea2b">
-
-> explain
+> Look up to DWH to avoid data duplication.
 
 ### Slowly Changing Dimension (SCD)
 
 <img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
 
-> explain
+> Split into three conditions: SCD 0, SCD 1, and SCD 2 based on the incoming data criteria. 
 
 <img width="899" alt="updates sdc1" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3c2858a0-0888-4d64-b55e-c87cdb1f32f6">
 
 <img width="918" alt="update scd 1 - sql query" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/a3575d33-1c1c-45d3-817e-c2ff72d99c27">
 
-> explain
+> If the criteria meet SCD 1, it will update the existing data.
 
 
 ### Fact Tables
