@@ -37,25 +37,25 @@ It utilizes a star schema design with a central fact table surrounded by dimensi
 # Purpose and Impact 💼📈
 
 The purpose of our data warehouse is to:
-- Gain deeper insights into sales trends and customer behavior 📊👥
-- Improve inventory management through better forecasting and optimization 📉⚙️
-- Enhance decision-making processes with data-driven strategies 🛠️📊
-- Facilitate targeted marketing campaigns based on customer segmentation 🎯📊
-- Enable predictive analytics to anticipate market changes and customer preferences 🔮📊
+- Gain deeper insights into sales trends and customer behavior 
+- Improve inventory management through better forecasting and optimization 
+- Enhance decision-making processes with data-driven strategies 
+- Facilitate targeted marketing campaigns based on customer segmentation 
+- Enable predictive analytics to anticipate market changes and customer preferences 
 
 # Benefits 🎉
 
 By implementing the Global Cycling Company Data Warehouse, we expect to:
-- Make informed, strategic decisions to drive business growth 📈🚀
-- Improve operational efficiency through data-driven insights ⚙️📊
-- Enhance customer satisfaction by understanding their preferences and needs better 👥📊
+- Make informed, strategic decisions to drive business growth 
+- Improve operational efficiency through data-driven insights 
+- Enhance customer satisfaction by understanding their preferences and needs better 
 
 # Challenges and Limitations ⚠️
 
 While implementing the data warehouse, we may encounter challenges such as:
-- Data quality issues leading to inaccurate analysis 📉🔍
-- Complex ETL processes requiring careful management ⚙️💻
-- Integration of data from diverse sources may pose compatibility challenges 🔄💻🔗
+- Data quality issues leading to inaccurate analysis 
+- Complex ETL processes requiring careful management 
+- Integration of data from diverse sources may pose compatibility challenges 
 
 
 # Buidling Phases 📅
