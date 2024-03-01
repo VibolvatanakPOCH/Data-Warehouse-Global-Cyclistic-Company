@@ -28,7 +28,8 @@ The Global Cycling Company Data Warehouse project involves the following key com
 
 Utilizes a star schema design with a central fact table surrounded by dimension tables optimized for query performance and simplicity.
 
-[ffd]
+![schema](https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/5bc6218c-050c-442f-a444-6d480826cf0a)
+
 
 
 # Tools and Technologies 🛠️
@@ -81,17 +82,18 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 ### Dimension Tables
 <img width="914" alt="Dimension + slowly changing dimensions" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/1cb6ac61-0c00-4910-be9b-c5342baf7111">
- > explain
+
+> explain
 
 #### Currency
 <img width="917" alt="dimcurrency" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/3618d869-ed54-4810-9973-c1b19c2c1650">
- > explain
+> explain
  
 #### Date 
 <img width="914" alt="dimdate" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/7b53d64b-9486-4209-a31e-745517e8ea2b">
 
- > explain
->
+> explain
+
 ### Slowly Changing Dimension (SCD)
 
 <img width="908" alt="migratw to dimproduct" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/b3078d9e-7969-4b18-b19e-ebaeb6e9059b">
@@ -105,19 +107,20 @@ While implementing the data warehouse, we may encounter challenges such as:
 > explain
 
 
-
-
 ### Fact Tables
 <img width="919" alt="Fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/bcd2ef29-1189-4359-b664-e44b1978d408">
- > explain
+ 
+> explain
 
 #### Online Sale
 <img width="909" alt="factonlinesales" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/f69e6159-f0d5-4980-90cb-a64e70c5982b">
- > explain
+ 
+> explain
 
 #### Store Sale
 <img width="905" alt="factstoresale" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/2c5106e9-3eb7-4866-b7b8-0e28c79e16c3">
- > explain
+ 
+> explain
 
 
 ## 4. Testing and Deployment 🛠️
