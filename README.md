@@ -1,4 +1,4 @@
-![Architechture](https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/125289ad-9aa6-4795-b852-5d1c9a02f7cd)
+![Architechture(1)](https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/2a4e778f-c55f-443b-9f1b-2ab0fbb90e5b)
 
 # Global Cycling Company Data Warehouse 🚴‍♂️
 
@@ -26,7 +26,7 @@ The Global Cycling Company Data Warehouse project involves the following key com
 
 # Architecture 🏗️
 
-It utilizes a star schema design with a central fact table surrounded by dimension tables optimized for query performance and simplicity.
+Utilizes a star schema design with a central fact table surrounded by dimension tables optimized for query performance and simplicity.
 
 [ffd]
 
@@ -157,7 +157,7 @@ While implementing the data warehouse, we may encounter challenges such as:
 
 # Future Productions 🔍🌟
 
-With the data warehouse in place, our company can expect to:
+With the data warehouse in place, we can expect to:
   - Gain deeper insights into sales trends and customer behavior.
   - Improve inventory management through better forecasting and optimization.
   - Enhance decision-making processes with data-driven strategies.
