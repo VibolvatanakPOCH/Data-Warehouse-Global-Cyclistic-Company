@@ -122,6 +122,36 @@ While implementing the data warehouse, we may encounter challenges such as:
 - **Integration Testing**: Validate the entire data pipeline for correctness and logic.
 - **Deployment**: Deploy the data warehouse in a production environment, monitoring performance and functionality.
 
+#### ELT deployment
+<img width="966" alt="deployment" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/35d5e7b4-863f-4068-ae4d-459962bd0f78">
+
+> explain
+
+#### Execute Task Dimension
+<img width="1093" alt="deploy-execute dimension " src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/1a4a00c8-9615-4c57-b518-594fa82fd2a4">
+
+> explain
+
+
+#### Execute Task Fact
+<img width="1083" alt="deploy-execute fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/91a37e6b-b1f2-42af-a589-3f781965dc50">
+
+### Job Schedule 
+#### Create Task for Dimension Table
+<img width="1044" alt="deploy-task dimention" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/52eda3d9-8215-45fc-b9c8-1f2a8969026c">
+
+> explain
+
+#### Create Task for Fact Table
+<img width="1045" alt="deploy-task fact" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/f2dd71ec-275b-4a2e-8f95-2b18bea8eb4a">
+
+> explain 
+
+#### Job schedule
+<img width="621" alt="job-schedule" src="https://github.com/Vatanak8/Data-Warehouse-Global-Cyclistic-Company/assets/95983559/25e8fc58-c03d-4598-9253-83ad3e9c23d4">
+
+> explain
+
 # Future Productions 🔍🌟
 
 With the data warehouse in place, our company can expect to:
@@ -131,8 +161,5 @@ With the data warehouse in place, our company can expect to:
   - Facilitate targeted marketing campaigns based on customer segmentation.
   - Enable predictive analytics to anticipate market changes and customer preferences.
 
-## Conclusion 🎉
-
-The Global Cycling Company Data Warehouse encapsulates the journey from data source identification to deployment in a production environment. By leveraging this comprehensive data repository, our company can make informed, strategic decisions to drive business growth and success.
 
 For any inquiries or assistance, please contact [Your Name] at [Your Email Address].
