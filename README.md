@@ -1,6 +1,7 @@
 # Global Cycling Company Data Warehouse 🚴‍♂️🏭
 
-Welcome to the Global Cycling Company Data Warehouse by AdventureWorks 2016 data source! From data collection to insightful reporting, our process involves gathering data from various sources, integrating it into a centralized platform, transforming it for analysis, storing it efficiently, applying advanced analytics techniques, generating insightful reports and visualizations, and continuously improving the warehouse to meet evolving business needs and technological advancements.
+Welcome to the Global Cycling Company Data Warehouse by AdventureWorks 2016!
+From data collection to insightful reporting, our process involves gathering data from various sources, integrating it into a centralized platform, transforming it for analysis, storing it efficiently, applying advanced analytics techniques, generating insightful reports and visualizations, and continuously improving the warehouse to meet evolving business needs and technological advancements.
 
 # Overview 🌟
 
